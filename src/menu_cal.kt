@@ -19,7 +19,8 @@ fun main() {
             println("Hasil Penambahan dari $bil_pertama dan $bil_kedua adalah $hasil_tambah")
         }
         "2"->{
-
+            val kurang = bil_pertama - bil_kedua
+            println("Hasil dari pengurangan $bil_pertama dan $bil_kedua adalah $kurang")
         }
         "3"->{
 
