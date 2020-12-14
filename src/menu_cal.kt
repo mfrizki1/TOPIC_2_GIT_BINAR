@@ -24,7 +24,8 @@ fun main() {
 
         }
         "4"->{
-
+            val bagi = bil_pertama / bil_kedua
+            println("Hasil Pembagian dari $bil_pertama dan $bil_kedua adalah $bagi")
         }
         else->{
             print("Tidak ada menu")
