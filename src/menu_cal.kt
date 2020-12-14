@@ -23,7 +23,8 @@ fun main() {
             println("Hasil dari pengurangan $bil_pertama dan $bil_kedua adalah $kurang")
         }
         "3"->{
-
+            val kali = bil_pertama * bil_kedua
+            println("Hasil Perkalian dari $bil_pertama dan $bil_kedua adalah $kali")
         }
         "4"->{
 
