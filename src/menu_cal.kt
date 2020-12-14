@@ -15,7 +15,8 @@ fun main() {
     val bil_kedua = readLine()!!.toInt()
     when(pick_menu){
         "1"->{
-
+            val hasil_tambah = bil_pertama + bil_kedua
+            println("Hasil Penambahan dari $bil_pertama dan $bil_kedua adalah $hasil_tambah")
         }
         "2"->{
 
